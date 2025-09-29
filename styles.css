@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #202020;
+    color: #fff;
+}
+
+.ustKisim {
+    background-color: rgb(24, 24, 75);
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menuBar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.menuBar a:hover {
+    text-decoration: underline;
+}
+
+.aramaKutusu input {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+.anaGorsel {
+    position: relative;
+    background-image: url('img/oto/arka.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 60px 20px;
+    height: 50vh;
+}
+
+.anaGorsel h2 {
+    position: absolute;
+    bottom: 3px;
+    right: 20px;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.onecikar {
+    padding: 20px;
+    background-color: rgb(209, 209, 209);
+}
+
+.onecikarBaslik {
+    color: #51535a;
+    font-size: 36px;
+}
+
+.kartlarAlani {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.kart {
+    background-color: rgb(24, 24, 75);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.kartGorsel {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.kartGorsel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+}
+
+.kart a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+.kart a:hover {
+    text-decoration: underline;
+}
+
+.altBilgi {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #101010;
+}
+
+.telifHakki {
+    text-align: center;
+    background-color: #000;
+    padding: 10px;
+}
+
+.formAlani {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 70px);
+    padding: 20px;
+}
+
+.formAlani form {
+    background-color: #303030;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formAlani form input,
+.formAlani form button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.formAlani form button {
+    background-color: #1E90FF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.formAlani form button:hover {
+    background-color: #0056b3;
+}
+
+.markaListesi {
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.markaListesi ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.markaListesi li {
+    margin: 10px;
+}
+
+.markaLogo {
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.markaLogo:hover {
+    transform: scale(1.1);
+}
+
+.iletisim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 70px);
+    text-align: center;
+    padding: 20px;
+}
+
+.iletisim h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #1E90FF;
+}
+
+.iletisim p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.iletisim a {
+    color: #1E90FF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.iletisim a:hover {
+    text-decoration: underline;
+}
+
+.galeri {
+    padding: 20px;
+    background-color: rgb(209, 209, 209);
+}
+
+.galeriIzgara {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.galeriIzgara img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.galeriIzgara img:hover {
+    transform: scale(1.05);
+}
